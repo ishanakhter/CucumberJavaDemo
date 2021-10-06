@@ -8,8 +8,8 @@ import io.cucumber.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/Features",glue= {"stepDefinitions"},
 monochrome=true,
-plugin = {"pretty","html:traget/HtmlReport"},
-tags="@GuestUser")
+plugin = {"pretty","html:traget/HtmlReport"}
+)
 
 public class TestRunner {
 
